@@ -1,0 +1,33 @@
+{
+  "name": "request-ntlm",
+  "version": "0.0.1",
+  "description": "ntlm client in node.js not depend on request (with vulnerbilities)",
+  "main": "index.ts",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc  && copy package*.json lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/axiao01/request-ntlm.git"
+  },
+  "keywords": [
+    "ntlm"
+  ],
+  "author": "angela.yxiao@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/axiao01/request-ntlm/issues"
+  },
+  "homepage": "https://github.com/axiao01/request-ntlm#readme",
+  "devDependencies": {
+    "@types/jest": "^27.5.1",
+    "@types/node": "^17.0.34",
+    "@typescript-eslint/eslint-plugin": "^5.24.0",
+    "@typescript-eslint/parser": "^5.24.0",
+    "eslint": "^8.15.0",
+    "jest": "^28.1.0",
+    "ts-jest": "^28.0.2",
+    "ts-node": "^10.7.0"
+  }
+}
